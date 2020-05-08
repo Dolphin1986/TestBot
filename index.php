@@ -16,7 +16,8 @@ print_r($update);
 </head>
 	
 	<body>
-		<img src="<?php echo $update['img_url01'];?>">
+
+		<img src = '<?=$update['img_url01']?>'>
 	</body>
 
 </html>
