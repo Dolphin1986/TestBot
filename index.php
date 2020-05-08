@@ -2,6 +2,8 @@
 
 include 'webhook.php';
 
+print_r($update);
+
 ?>
 
 
