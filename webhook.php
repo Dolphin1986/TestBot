@@ -12,7 +12,7 @@ $_SESSION['value1'] = $update;
 
 
 
-var_dump($_SESSION['value1']);
+// var_dump($_SESSION['value1']);
 
  // ETC... echo "<input type='text' name='value1' value='".$_SESSION['value1']."' />"; echo "<input type='text' name='value2' value='".$_SESSION['value2']."' />"; 
 
