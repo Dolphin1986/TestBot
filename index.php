@@ -18,6 +18,8 @@ var_dump($update);
 </head>
 	
 	<body>
+		<h2>Текст сообщения вот: <?=$update['txt_massage']?></h2>
+		<br>
 		<h1>Тут должна быть картинка:</h1>
 		<img src = '<?=$update['img_url01']?>'>
 		<a href="/log.txt">log.txt</a>
