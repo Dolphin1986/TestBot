@@ -2,7 +2,7 @@
 
 include 'webhook.php';
 
-print_r($update);
+// print_r($update);
 
 ?>
 
