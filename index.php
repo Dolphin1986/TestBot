@@ -2,7 +2,10 @@
 
 include 'webhook.php';
 
-// print_r($update);
+print_r($update);
+
+echo file_get_contents($file);
+
 
 ?>
 
