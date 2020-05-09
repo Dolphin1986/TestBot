@@ -2,9 +2,13 @@
 
 include 'webhook.php';
 
+$file_01 = './test_log.txt';
+
 print_r($update);
 
-echo file_get_contents($file);
+
+
+var_dump (file_get_contents($file_01, true));
 
 
 ?>
