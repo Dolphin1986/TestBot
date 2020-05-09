@@ -4,7 +4,7 @@ include 'webhook.php';
 
 print_r($update);
 
-echo 'тут должен быть фаил -'file_get_contents($file);
+echo file_get_contents($file);
 
 
 ?>
