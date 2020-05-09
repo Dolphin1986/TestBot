@@ -11,14 +11,7 @@ file_put_contents(__DIR__.'/log.txt', file_get_contents('php://input'));
 
 $file = 'log.txt';
 
-session_start(); 
-$_SESSION['value1'] = $update; 
 
-
-
-// var_dump($_SESSION['value1']);
-
- // ETC... echo "<input type='text' name='value1' value='".$_SESSION['value1']."' />"; echo "<input type='text' name='value2' value='".$_SESSION['value2']."' />"; 
 
 
 // $url    = 'php://input';
