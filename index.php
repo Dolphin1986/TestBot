@@ -13,6 +13,8 @@ $file_02 = './log.txt';
 // echo "Это Hook - ".$hook.'<br>';
 // echo "Это hook_web - ".$hook_web;
 
+print_r($update);
+
 
 ?>
 
