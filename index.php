@@ -3,12 +3,14 @@
 include 'webhook.php';
 
 $file_01 = './test_log.txt';
-
-print_r($update);
-
+$file_02 = './log.txt';
 
 
-var_dump (file_get_contents($file_01, true));
+$hook = file_get_contents($file_01, true));
+$hook_web = file_get_contents($file_02, true));
+
+echo "Это Hook - ".$hook.'<br>';
+echo "Это hook_web - ".$hook_web;
 
 
 ?>
