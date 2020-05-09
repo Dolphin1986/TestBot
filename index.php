@@ -2,18 +2,12 @@
 
 include 'webhook.php';
 
-$file_01 = './test_log.txt';
-$file_02 = './log.txt';
+$last_log = './last_log.txt';
+$log = './log.txt';
 
+$hook = file_get_contents($last_log, true));
 
-// $hook = file_get_contents($file_01, true));
-
-// $hook_web = file_get_contents($file_02, true));
-
-// echo "Это Hook - ".$hook.'<br>';
-// echo "Это hook_web - ".$hook_web;
-
-print_r($update);
+echo "Это Hook - ".$hook.'<br>';
 
 
 ?>
