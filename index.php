@@ -8,6 +8,7 @@ $log = './log.txt';
 $hook = file_get_contents($last_log, true);
 
 echo "Это Hook - ".$hook.'<br>';
+echo $hook;
 
 
 ?>
@@ -23,8 +24,7 @@ echo "Это Hook - ".$hook.'<br>';
 		<h2>Текст сообщения вот:</h2>
 		<br>
 		<h1>Тут должна быть картинка:</h1>
-		<img src = '<?=$update['img_url01']?>'>
-		<a href="/log.txt">log.txt</a>
+		<img src = '<?=echo $hook;?>'>
 	</body>
 
 </html>
