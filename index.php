@@ -5,7 +5,7 @@ include 'webhook.php';
 $last_log = './last_log.txt';
 $log = './log.txt';
 
-$hook = file_get_contents($log, true);
+$hook = file_get_contents($lasr_log, true);
 
 echo "Это Hook - ".$hook.'<br>';
 
