@@ -17,8 +17,6 @@ if ($time = $time) {
 
 
 
-
-
 // $url    = 'php://input';
 
 //     $data   = file_get_contents($url);
